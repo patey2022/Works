@@ -1,0 +1,136 @@
+/* variables */
+
+:root{
+    --fixed-height: 69px;
+}
+
+body{
+background-color: black;
+opacity: 0.9;
+font-family: helvertica;
+color: seashell;
+font-size: 22px;
+/* position: relative; */
+/* overflow-x: scroll; */
+}
+
+header {
+height: var(--fixed-height);
+border-bottom: 1px solid seashell;
+position: fixed;
+top:0;
+left: 0;
+}
+
+/* new  */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    /* flex-wrap: wrap; */
+    /* width: 100%; */
+}
+
+main{
+max-width: 1200px;
+margin: 0 auto;
+}
+
+header img{
+height: 50px;
+margin-left: 10px;
+opacity: 0.5;    
+}
+
+#mission {
+position: relative;
+text-align: center;
+background-image: url('../Images/img-mission-background.jpg');
+opacity: 0.7;
+height: 700px;
+width: 1200px; 
+margin-top: var(--fixed-height);
+}
+
+#mission1 {
+height: auto;
+position: absolute;
+top:50%;
+left: 50%;
+width: 100%;
+transform: translate(-50%, -50%);
+}
+
+#Month-Tea{
+width: 1000px;
+}
+
+#Month-Tea img{
+width: 300px;
+height: 200px;    
+}
+
+#tea-images{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+justify-content: space-around;
+}
+
+#Month-Tea h2, #Month-Tea h4{
+text-align: center;
+color: rgb(200, 255, 0);
+}
+
+#address{
+background-image: url('../Images/img-locations-background.jpg');
+height: 500px;
+
+}
+
+#location-areas{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+
+}
+
+#location{
+text-align: center;
+
+}
+
+#location1{
+background-color: black;
+width: 300px;
+text-align: center;
+}
+
+#footer1{
+text-align: center;
+height: 200px;
+line-height: 10px;
+}
+
+#copyright{
+text-align: left;
+}
+
+span{
+opacity:1;
+}
+
+#location2{
+background-color: black;
+width: 300px;
+text-align: center;
+border: 1px solid red;
+} 
